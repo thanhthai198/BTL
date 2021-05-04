@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.amgmarket"
+4    android:versionCode="11"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/thai/react-native/amg-mobile-app/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/thai/react-native/amg-mobile-app/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+12-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:3:3-65
+12-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:5:3-78
+13-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:5:20-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.54.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/a187b4ee1902a470ca732b43f3712f3a/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.54.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/a187b4ee1902a470ca732b43f3712f3a/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+15
+16    <queries>
+16-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+17        <intent>
+17-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+18            <action android:name="android.media.action.IMAGE_CAPTURE" />
+18-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+18-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+19        </intent>
+20    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.android.gms:play-services-iid:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/3bdd4fa73dcff764a3d8415c77cf51c3/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+21-->[com.google.android.gms:play-services-iid:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/3bdd4fa73dcff764a3d8415c77cf51c3/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.android.installreferrer:installreferrer:1.1.2] /Users/thai/.gradle/caches/transforms-2/files-2.1/e46e7b9dd4de5a488aa3b8a5b42fa186/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+22-->[com.android.installreferrer:installreferrer:1.1.2] /Users/thai/.gradle/caches/transforms-2/files-2.1/e46e7b9dd4de5a488aa3b8a5b42fa186/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+23
+24    <application
+24-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:7:3-17:17
+25        android:name="com.amgmarket.MainApplication"
+25-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:7:16-47
+26        android:allowBackup="false"
+26-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:7:162-189
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/206cc64cd789c99b77a5affe1fb89408/core-1.1.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:hardwareAccelerated="true"
+29-->[com.github.momo-wallet:mobile-sdk:1.0.3] /Users/thai/.gradle/caches/transforms-2/files-2.1/999d2e644ce493111d3cd27861d341ac/jetified-mobile-sdk-1.0.3/AndroidManifest.xml:14:9-43
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:7:81-115
+31        android:label="@string/app_name"
+31-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:7:48-80
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:7:116-161
+33        android:supportsRtl="true"
+33-->[com.github.momo-wallet:mobile-sdk:1.0.3] /Users/thai/.gradle/caches/transforms-2/files-2.1/999d2e644ce493111d3cd27861d341ac/jetified-mobile-sdk-1.0.3/AndroidManifest.xml:16:9-35
+34        android:theme="@style/AppTheme"
+34-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:7:190-221
+35        android:usesCleartextTraffic="true" >
+35-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:7:222-257
+36        <activity
+36-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:8:5-262
+37            android:name="com.amgmarket.MainActivity"
+37-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:8:15-43
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:8:77-154
+39            android:exported="true"
+39-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:8:227-250
+40            android:label="@string/app_name"
+40-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:8:44-76
+41            android:launchMode="singleTask"
+41-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:8:155-186
+42            android:windowSoftInputMode="adjustPan" />
+42-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:8:187-226
+43        <activity
+43-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:9:5-14:16
+44            android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"
+44-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:9:15-75
+45            android:launchMode="singleTask"
+45-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:9:109-140
+46            android:theme="@style/BootTheme" >
+46-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:9:76-108
+47            <intent-filter>
+47-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:10:7-13:23
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:11:9-61
+48-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:11:17-58
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:12:9-69
+50-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:12:19-66
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:15:5-82
+53-->/Users/thai/react-native/amg-mobile-app/android/app/src/main/AndroidManifest.xml:15:15-79
+54
+55        <receiver
+55-->[:react-native-device-info] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-22:20
+56            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+56-->[:react-native-device-info] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-70
+57            android:enabled="true"
+57-->[:react-native-device-info] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-35
+58            android:exported="true"
+58-->[:react-native-device-info] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-36
+59            android:permission="android.permission.INSTALL_PACKAGES" >
+59-->[:react-native-device-info] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-69
+60            <intent-filter>
+60-->[:react-native-device-info] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+61                <action android:name="com.android.vending.INSTALL_REFERRER" />
+61-->[:react-native-device-info] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+61-->[:react-native-device-info] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+62            </intent-filter>
+63        </receiver>
+64
+65        <provider
+65-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+66            android:name="androidx.core.content.FileProvider"
+66-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+67            android:authorities="com.amgmarket.provider"
+67-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+68            android:exported="false"
+68-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+69            android:grantUriPermissions="true" >
+69-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+70            <meta-data
+70-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+72                android:resource="@xml/provider_paths" />
+72-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+73        </provider>
+74
+75        <activity
+75-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+76            android:name="com.yalantis.ucrop.UCropActivity"
+76-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+77            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+77-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+78
+79        <provider
+79-->[:react-native-webview] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+80            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+80-->[:react-native-webview] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+81            android:authorities="com.amgmarket.fileprovider"
+81-->[:react-native-webview] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+82            android:exported="false"
+82-->[:react-native-webview] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+83            android:grantUriPermissions="true" >
+83-->[:react-native-webview] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+84            <meta-data
+84-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+85                android:name="android.support.FILE_PROVIDER_PATHS"
+85-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+86                android:resource="@xml/file_provider_paths" />
+86-->[:react-native-image-crop-picker] /Users/thai/react-native/amg-mobile-app/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+87        </provider>
+88
+89        <activity android:name="vn.momo.momo_partner.activity.ActivityMoMoWebView" />
+89-->[com.github.momo-wallet:mobile-sdk:1.0.3] /Users/thai/.gradle/caches/transforms-2/files-2.1/999d2e644ce493111d3cd27861d341ac/jetified-mobile-sdk-1.0.3/AndroidManifest.xml:18:9-86
+89-->[com.github.momo-wallet:mobile-sdk:1.0.3] /Users/thai/.gradle/caches/transforms-2/files-2.1/999d2e644ce493111d3cd27861d341ac/jetified-mobile-sdk-1.0.3/AndroidManifest.xml:18:19-83
+90        <activity
+90-->[com.google.android.gms:play-services-base:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/3841928246f665221c74245290aeb8e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/3841928246f665221c74245290aeb8e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/3841928246f665221c74245290aeb8e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/3841928246f665221c74245290aeb8e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/058c9525d142ec6d240a928bd3ee402e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/058c9525d142ec6d240a928bd3ee402e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.0.0] /Users/thai/.gradle/caches/transforms-2/files-2.1/058c9525d142ec6d240a928bd3ee402e/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+98    </application>
+99
+100</manifest>

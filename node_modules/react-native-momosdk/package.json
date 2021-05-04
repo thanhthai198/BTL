@@ -1,0 +1,24 @@
+{
+  "name": "react-native-momosdk",
+  "version": "1.3.4",
+  "description": "Payment via Momo wallet. Includes authorize token, payment token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react-timer-mixin": "^0.13.4"
+  },
+  "keywords": [
+    "npm",
+    "npm-momosdk",
+    "momosdk",
+    "react-momosdk"
+  ],
+  "author": "Lanh Luu",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "homepage": "https://github.com/momo-wallet"
+}

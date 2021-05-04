@@ -1,0 +1,6 @@
+module Pods_AMGMarket_AMGMarketTests {
+  umbrella header "Pods-AMGMarket-AMGMarketTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
