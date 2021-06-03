@@ -1,8 +1,6 @@
-// export const API_BASE_URL = 'http://appdev.gonapp.net/app/api/v1';
-// export const API_PAYMENT_BASE_URL = 'http://appdev.gonapp.net/payment_gateway';
+export const API_BASE_URL = 'http://appdev.gonapp.net/app/api/v1';
+export const API_PAYMENT_BASE_URL = 'http://appdev.gonapp.net/payment_gateway';
 
-export const API_BASE_URL = 'https://app.lalanow.com.vn/app/api/v1';
-export const API_PAYMENT_BASE_URL = 'https://app.lalanow.com.vn/payment_gateway';
 
 export const ENDPOINT_CHECK_USER = `${API_BASE_URL}/check_user`;
 export const ENDPOINT_GENERATE_OTP = `${API_BASE_URL}/generate_sms_otp`;
